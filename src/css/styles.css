@@ -18,3 +18,16 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.card-container {
+  padding: 25px;
+  background-color:beige;
+  max-width: 400px;
+  border-radius: 20px;
+}
+
+.span {
+ font-weight: bold;
+  color: #1a1919;
+    text-shadow: 2px 2px 4px #cbb0b0;
+}

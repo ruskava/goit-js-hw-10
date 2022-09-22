@@ -1,0 +1,9 @@
+`<div class="card-container">
+   <h2 class="country"><img src="{{flags.svg}}" alt="{{name.official}}" width = "50px"/> {{name.official}}</h2>
+   <div
+  <p class="capital"><span class="span">Capital:</span> {{capital}} </p>
+  <p class="population"><span class="span">Population:</span>
+    {{population}}
+  </p>
+  <p class="languages"><span class="span">Languages:</span>
+    {{#each languages}} {{this}} {{/each}}</p></div>
